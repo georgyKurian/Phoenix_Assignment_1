@@ -21,6 +21,8 @@ public class CSD4464Assignment1Phoenix {
     public static String stringPower(String word, int number) {
         if (number < 1) {
             return null;
+        } else if (number == 1) {
+            return word;
         }
         return "";
 
