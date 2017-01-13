@@ -17,5 +17,9 @@ public class CSD4464Assignment1Phoenix {
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    
+
+    public static String stringPower(String word, int number) {
+        return null;
+    }
+
 }
