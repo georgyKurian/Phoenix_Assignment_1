@@ -19,7 +19,7 @@ public class CSD4464Assignment1Phoenix {
     }
 
     public static String stringPower(String word, int number) {
-        return null;
+        return "";
     }
 
 }
