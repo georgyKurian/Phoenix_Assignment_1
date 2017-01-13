@@ -62,4 +62,24 @@ public class CSD4464Assignment1PhoenixTest {
         assertEquals(expResult, result);
     }
 
+    @Test
+    public void testLessThanOneShouldReturnNull() {
+        System.out.println("stringPower");
+        String word = "aa";
+        int number = 0;
+        String expResult = null;
+        String result = CSD4464Assignment1Phoenix.stringPower(word, number);
+        assertEquals(expResult, result);
+    }
+
+    @Test
+    public void testStringAndOneShouldReturnString() {
+        System.out.println("stringPower");
+        String word = "aa";
+        int number = 1;
+        String expResult = word;
+        String result = CSD4464Assignment1Phoenix.stringPower(word, number);
+        assertEquals(expResult, result);
+    }
+
 }
